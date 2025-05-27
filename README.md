@@ -74,12 +74,12 @@ This video provides a step-by-step demonstration of how my floating-point emulat
 * Why this method is eventually faster than kernel-based instruction emulation.
 
 **Watch the project demonstration here:**  
-[Watch on YouTube](https://youtu.be/_kRSL5yiPrg)
+[Watch on YouTube](https://youtu.be/_kRSL5yiPrg) <img src="assets/youtube.svg" height="24" width="24" />
 
 ## Project Paper
 
 The full project report is available here:  
-[Download the Report](docs/1681382_report.pdf)
+[Download the Report](docs/1681382_report.pdf) <img src="assets/pdf.svg" height="24" width="24" />
 
 ## References
 

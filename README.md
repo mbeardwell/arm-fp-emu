@@ -10,17 +10,6 @@ This is the final submission of my third-year university project at King's Colle
 
 This project borrows existing dynamic program instrumentation techniques to propose a faster method of emulating floating-point instructions on Unix-like operating systems than what is provided by the kernel. The proposed method replaces floating-point instructions with branches that indirectly lead to emulation code resident in the same process’ memory. This prevents some execution flow switching into kernel code to run the kernel’s floating-point instruction emulator which theoretically reduces overhead for every instruction emulated.
 
-## Table of Contents
-
-* [Introduction](#introduction)
-* [Installation](#installation)
-* [Build instructions](#build-instructions)
-* [Testing](#testing)
-* [Video Walkthrough](#video-walkthrough)
-* [Project Paper](#project-paper)
-* [References](#references)
-* [Author](#author)
-
 ## Introduction
 
 This tool is designed to be built and run on Armel Debian on an ARMv7(-a) CPU. It requires the 'librunt' and 'keystone' git repositories as well as other dependencies.
@@ -116,8 +105,5 @@ IEEE International Symposium on Performance Analysis of Systems & Software (ISPA
 18. Arm Ltd. What is RISC? https://www.arm.com/glossary/risc.
 19. Nicholas Nethercote and Julian Seward. Valgrind: a framework for heavyweight dynamic binary instrumentation. ACM Sigplan notices, 42(6):89–100, 2007.
 20. Ignacio Sanmillan. Executable and Linkable Format 101 - Part 1 Sections and Segments. https://www.intezer.com/blog/research/executable-linkable-format-101-part1-sections-segments/.
-
-## Author
-[Matthew Beardwell](https://github.com/mbeardwell)
 
 * * *

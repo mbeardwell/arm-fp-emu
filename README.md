@@ -1,4 +1,4 @@
-> The full project report is available [here](docs/1681382_report.pdf) <img src="assets/pdf.svg" height="24" width="24" />
+> [Download the report](docs/1681382_report.pdf) 📄
 
 # Faster Dynamically Instrumented Programs
 

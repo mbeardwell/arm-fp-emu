@@ -1,3 +1,5 @@
+> The full project report is available [here](docs/1681382_report.pdf) <img src="assets/pdf.svg" height="24" width="24" />
+
 # Faster Dynamically Instrumented Programs
 
 _A look at floating-point emulation in ARM Linux_
@@ -75,11 +77,6 @@ This video provides a step-by-step demonstration of how my floating-point emulat
 
 **Watch the project demonstration here:**  
 [Watch on YouTube](https://youtu.be/_kRSL5yiPrg) <img src="assets/youtube.svg" height="24" width="24" />
-
-## Project Paper
-
-The full project report is available here:  
-[Download the Report](docs/1681382_report.pdf) <img src="assets/pdf.svg" height="24" width="24" />
 
 ## References
 

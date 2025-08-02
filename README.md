@@ -1,4 +1,4 @@
-> [Download the report](docs/1681382_report.pdf) 📄
+> [Download the report](https://raw.githubusercontent.com/mbeardwell/arm-fp-emu/main/docs/1681382_report.pdf) 📄
 
 # Faster Dynamically Instrumented Programs
 

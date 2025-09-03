@@ -16,6 +16,21 @@ This project borrows existing dynamic program instrumentation techniques to prop
 
 This tool is designed to be built and run on Armel Debian on an ARMv7(-a) CPU. It requires the 'librunt' and 'keystone' git repositories as well as other dependencies.
 
+## Video Walkthrough
+
+This video provides a step-by-step demonstration of how my floating-point emulation program works using the GNU Debugger (GDB). It walks through a test binary, showing how floating-point instructions are replaced with branches to trampoline code that redirects execution to an emulation routine.
+
+### What’s Covered in the Video?
+
+* Debugging the program using GDB.
+* How floating-point instructions are replaced with branch instructions.
+* The role of trampoline code in redirecting execution.
+* How the emulation routine processes floating-point operations.
+* Why this method is eventually faster than kernel-based instruction emulation.
+
+**Watch the project demonstration here:**  
+[Watch on YouTube](https://youtu.be/_kRSL5yiPrg) <img src="assets/youtube.svg" height="24" width="24" />
+
 ## Installation
 
 To set up the project, clone the repository:
@@ -62,21 +77,6 @@ LD_LIBRARY_PATH=[...]/lib LD_PRELOAD=./build/arm-fp-emu.so ./tests/build/vadd10 
 ```
 
 LD_LIBRARY_PATH is necessary for how I'm using Keystone, but Keystone could technically be used in a way that removes the need to use this environment variable.
-
-## Video Walkthrough
-
-This video provides a step-by-step demonstration of how my floating-point emulation program works using the GNU Debugger (GDB). It walks through a test binary, showing how floating-point instructions are replaced with branches to trampoline code that redirects execution to an emulation routine.
-
-### What’s Covered in the Video?
-
-* Debugging the program using GDB.
-* How floating-point instructions are replaced with branch instructions.
-* The role of trampoline code in redirecting execution.
-* How the emulation routine processes floating-point operations.
-* Why this method is eventually faster than kernel-based instruction emulation.
-
-**Watch the project demonstration here:**  
-[Watch on YouTube](https://youtu.be/_kRSL5yiPrg) <img src="assets/youtube.svg" height="24" width="24" />
 
 ## References
 
